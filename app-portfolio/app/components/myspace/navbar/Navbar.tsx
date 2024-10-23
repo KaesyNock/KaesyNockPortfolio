@@ -9,6 +9,7 @@ const Navbar = () => {
 					<Image
 						className={styles.logo}
 						src="/logo.svg"
+						// may have to switch to png- don't want nock design on there
 						alt="kaesynocklogo"
 						width={250}
 						height={80}

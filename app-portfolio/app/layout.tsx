@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./myspace/components/navbar/Navbar";
-import Footer from "./myspace/components/footer/Footer";
+import Navbar from "./components/myspace/navbar/Navbar";
+import Footer from "./components/myspace/footer/Footer";
 
-import Bio from "./myspace/components/(side one)/bio/Bio";
+import Bio from "./components/myspace/(side one)/bio/Bio";
 
 
 export const metadata: Metadata = {
@@ -19,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      {/* <body className={`${geistSans.variable} ${geistMono.variable}`}> */}
         < Navbar />
         <Bio />
         {children}

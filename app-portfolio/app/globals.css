@@ -2,13 +2,13 @@
   --background: #ffffff;
 
 }
-/* 
+
 @media screen {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-} */
+}
 
 html,
 body {
@@ -29,8 +29,10 @@ body {
 }
 
 a {
-  color: #F6FFFF;
+  color:  #34428B;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: small;
+  font-weight: bolder;
 }

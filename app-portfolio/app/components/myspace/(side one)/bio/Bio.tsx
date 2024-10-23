@@ -12,7 +12,7 @@ const Bio = () => {
 				<div className={styles.imgContainer}>
 					<Image
 						src="/portfolioimage.jpg"
-						alt=""
+						alt="portfolioimage"
 						width={200}
 						height={300}
 						className={styles.image}
@@ -20,15 +20,14 @@ const Bio = () => {
 				</div>
 				<div className={styles.textContainer}>
 					<h1 className={styles.postTitle}>&quot;Full Stack Developer&quot;</h1>
-          <p className={styles.postDesc}>
-            Female, 34, Remote
-          </p>
-          <p className={styles.postDesc}>
-            Last Login:
-            <br />
-            {/* date stamp */}
-          </p>
-					<button className={styles.button}>Read More</button>
+					<p className={styles.postDesc}>Female, 34, Remote</p>
+					<p className={styles.postDesc}>
+						Last Login:
+						<br />
+						{/* date stamp */}
+					</p>
+					<h6>View My:</h6>
+					<a href="https://github.com/kaesynock">Code</a>
 				</div>
 			</div>
 		</div>
