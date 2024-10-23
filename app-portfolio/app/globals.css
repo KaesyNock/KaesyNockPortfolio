@@ -29,13 +29,8 @@ body {
 }
 
 a {
-  color: #34428B;
+  color: #F6FFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-  
-  }
-} */
