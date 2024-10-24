@@ -33,11 +33,10 @@ body {
   flex-direction: column;
 }
 
-.sideOne {
+#sideOne {
   display:flexbox;
   flex-direction: column;
   width: 30%;
-  ;
 }
 
 .sideTwo {

@@ -12,13 +12,16 @@ import {
 } from "../../../constants/index";
 
 const TechStack = () => {
-	return (
+    return (
+        <div id="sideOne">
 		<div className={styles.content}>
 			<div className={styles.sideOne}>
 				<div className={styles.container}>
 					<div className={styles.table}>
 						<table>
-							<thead>Tech Stack</thead>
+                                <thead>
+                                    <h2>Tech Stack</h2>
+                                </thead>
 							<tbody>
 								<tr>
 									<td className={styles.title}>Languages:</td>
@@ -110,7 +113,8 @@ const TechStack = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+            </div>
+            </div>
 	);
 };
 
