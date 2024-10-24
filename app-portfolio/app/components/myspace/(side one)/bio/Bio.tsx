@@ -5,9 +5,10 @@ import Image from 'next/image'
 const Bio = () => {
   return (
 		<div className={styles.container}>
-			<h1 className={styles.title}>
-				<b>Kaesy Nock</b>
-			</h1>
+			<h4 className={styles.title}>
+			  <b>Kaesy Nock</b>
+			  {/* check back in the css and adjust font size of title */}
+			</h4>
 			<div className={styles.post}>
 				<div className={styles.imgContainer}>
 					<Image

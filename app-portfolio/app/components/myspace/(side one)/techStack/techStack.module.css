@@ -1,0 +1,57 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px;
+	border: #658cc3 1px solid;
+	width: 30%;
+}
+
+.table {
+	display: table;
+	width: 100%;
+	height: fit-content;
+    white-space: nowrap;
+	
+}
+
+
+
+.table thead {
+	background-color: #658cc3;
+	color: #f6ffff;
+	padding: 0.5rem 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	flex: 3;
+	width:100%;
+}
+
+.title{
+	display: table-row;
+	background-color: #adc9ee;
+	color: #385987;
+	font-size: small;
+	font-weight: 700;
+	box-sizing: content-box;
+	width: 30%;
+	padding: 5px;
+
+	
+}
+
+
+
+.list{
+	display: table-cell;
+	background-color: #d3e3fa;
+	color: #000000;
+	font-size: small;
+	box-sizing: content-box;
+	width: 70%;
+	padding: 5px;
+	
+}
+
+.list li {
+	list-style-type: none;
+}

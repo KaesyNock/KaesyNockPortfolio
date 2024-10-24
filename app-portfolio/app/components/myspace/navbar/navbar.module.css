@@ -17,6 +17,11 @@
 	align-items: center;
 }
 
+.links ul {
+	list-style-type: none;
+}
+
 .links a {
     color: #f6ffff;
 }
+
