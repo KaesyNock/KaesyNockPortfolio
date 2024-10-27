@@ -6,6 +6,7 @@ import Footer from "./components/myspace/footer/Footer";
 // import Bio from "./components/myspace/(side one)/bio/Bio";
 import Contact from "./components/myspace/(side one)/contact/Contact";
 import TechStack from "./components/myspace/(side one)/techStack/TechStack";
+import Scrap from "./components/myspace/Scrap";
 
 
 export const metadata: Metadata = {
@@ -22,7 +23,8 @@ export default function RootLayout({
 		<html lang="en">
 			<body>
 				<Navbar />
-				{/* <Bio /> */}
+			  {/* <Bio /> */}
+			  	<Scrap />
 				<Contact />
 				<TechStack />
 				{children}

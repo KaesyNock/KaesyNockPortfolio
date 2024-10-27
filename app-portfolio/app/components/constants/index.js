@@ -83,28 +83,24 @@ export const OS = [
 export const ContactLinks = [
 	{
         id: "1",
-        image
 		url: "emailto: kaesynock@gmail.com",
 		title: "Send Message",
 	},
 
 	{
         id: "2",
-        imageUrl: linkedinIcon,
 		url: "https://www.linkedin.com/in/kaesy-nock/",
 		title: "Add to Friends",
 	},
 
 	{
         id: "3",
-        imageUrl: youtubeIcon,
 		url: "youtube.com",
 		title: "Forward to a Friend",
 	},
 
 	{
         id: 4,
-        imageUrl: linkedinIcon,
 		url: "https://www.linkedin.com/in/kaesy-nock/",
 		title: "Add to Favorites",
 	},
