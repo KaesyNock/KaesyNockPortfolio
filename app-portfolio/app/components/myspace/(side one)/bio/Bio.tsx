@@ -3,7 +3,8 @@ import styles from './bio.module.css'
 import Image from 'next/image'
 
 const Bio = () => {
-  return (
+	return (
+	  <div className='sideOne'>
 		<div className={styles.container}>
 			<h4 className={styles.title}>
 			  <b>Kaesy Nock</b>
@@ -30,6 +31,7 @@ const Bio = () => {
 					<h6>View My:</h6>
 					<a href="https://github.com/kaesynock">Code</a>
 				</div>
+			</div>
 			</div>
 		</div>
 	);

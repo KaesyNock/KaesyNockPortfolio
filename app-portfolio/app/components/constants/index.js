@@ -1,3 +1,22 @@
+// IMAGES
+
+
+
+
+// TABLE CONSTANTS
+
+export const TechStackParts = [
+    "Languages",
+    "Frameworks",
+    "Libraries",
+    "Databases",
+    "Design",
+    "Code Tools",
+    "!Code Tools",
+    "Cloud",
+    "Operating Systems"
+]
+
 export const Languages = [
     "JavaScript",
     "Python",
@@ -54,10 +73,45 @@ export const Cloud = [
     "VMware"
 ]
 
-export const OperatingSystems = [
+export const OS = [
     "Windows",
     "Linux"
 ]
+
+// LINK CONSTANTS
+
+export const ContactLinks = [
+	{
+        id: "1",
+        image
+		url: "emailto: kaesynock@gmail.com",
+		title: "Send Message",
+	},
+
+	{
+        id: "2",
+        imageUrl: linkedinIcon,
+		url: "https://www.linkedin.com/in/kaesy-nock/",
+		title: "Add to Friends",
+	},
+
+	{
+        id: "3",
+        imageUrl: youtubeIcon,
+		url: "youtube.com",
+		title: "Forward to a Friend",
+	},
+
+	{
+        id: 4,
+        imageUrl: linkedinIcon,
+		url: "https://www.linkedin.com/in/kaesy-nock/",
+		title: "Add to Favorites",
+	},
+];
+
+
+
 
 
 

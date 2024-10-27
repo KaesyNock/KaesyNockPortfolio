@@ -1,17 +1,25 @@
+import Image from "next/image";
 import styles from "./contact.module.css";
+
+import { ContactLinks } from "@/app/components/constants";
+import { LinkIcons} from "@/public/assets/index";
+
 
 const Contact = () => {
 	return (
 		<div className="content">
-			<div className={styles.container}>
+			<div className="display-flex align-items-center justify-content-space-between w-1/5">
 				<div className={styles.title}>
 					<h1>Contacting Kaesy</h1>
 				</div>
 				<div className={styles.links}>
 					<ul>
 						<li>
-							|<a href="/">Send Message</a>
-							{/* email */}
+							{ContactLinks.map((contactlinks, index) => (
+								<li key={contactlinks.url}>
+									{contactlinks.title}
+								</li>
+							))}
 						</li>
 						<li>
 							<a href="https://www.linkedin.com/in/kaesy-nock/">
@@ -31,6 +39,6 @@ const Contact = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default Contact
+export default Contact;

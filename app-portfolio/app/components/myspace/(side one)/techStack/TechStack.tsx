@@ -1,4 +1,3 @@
-import styles from "./techStack.module.css";
 import {
 	Languages,
 	Frameworks,
@@ -8,114 +7,114 @@ import {
 	CodeTools,
 	NotCodeTools,
 	Cloud,
-	OperatingSystems,
+	OS,
+	TechStackParts,
 } from "../../../constants/index";
 
-const TechStack = () => {
-    return (
-        <div id="sideOne">
-		<div className={styles.content}>
-			<div className={styles.sideOne}>
-				<div className={styles.container}>
-					<div className={styles.table}>
-						<table>
-                                <thead>
-                                    <h2>Tech Stack</h2>
-                                </thead>
-							<tbody>
-								<tr>
-									<td className={styles.title}>Languages:</td>
-									<td className={styles.list}>
-										{Languages.map((language) => (
-											<li key={language}>{language}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Frameworks:</td>
-									<td className={styles.list}>
-										{Frameworks.map((framework) => (
-											<li key={framework}>{framework}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Libraries:</td>
-									<td className={styles.list}>
-										{Libraries.map((library) => (
-											<li key={library}>{library}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Databases:</td>
-
-									<td className={styles.list}>
-										{Databases.map((databases) => (
-											<li key={databases}>{databases}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Design:</td>
-
-									<td className={styles.list}>
-										{Design.map((design) => (
-											<li key={design}>{design}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Code Tools:</td>
-
-									<td className={styles.list}>
-										{CodeTools.map((codetools) => (
-											<li key={codetools}>{codetools}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>!Code Tools:</td>
-
-									<td className={styles.list}>
-										{NotCodeTools.map((notCodeTools) => (
-											<li key={notCodeTools}>{notCodeTools}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Cloud:</td>
-									<td className={styles.list}>
-										{Cloud.map((cloud) => (
-											<li key={cloud}>{cloud}</li>
-										))}
-									</td>
-								</tr>
-
-								<tr>
-									<td className={styles.title}>Operating Systems:</td>
-
-									<td className={styles.list}>
-										{OperatingSystems.map((operatingSystems) => (
-											<li key={operatingSystems}>{operatingSystems}</li>
-										))}
-									</td>
-								</tr>
-							</tbody>
-						</table>
+const TechStackTemp = () => {
+	return (
+		<div className="sideOne">
+			<div className="container">
+				<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 ">
+					<div className="table-header bg-title-A-background text-rootBackground text-left font-bold text- pl-2">
+						Kaesy&apos;s Tech Stack
+					</div>
+					<div className="table-body border-spacing-1">
+						<div className="table-row-group pl-2">
+							<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2 ">
+								Languages:
+							</div>
+							<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+								{Languages.map((language) => (
+									<li key={language}>{language}</li>
+								))}
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Frameworks:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{Frameworks.map((frameworks) => (
+										<li key={frameworks}>{frameworks}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Libraries:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{Libraries.map((libraries) => (
+										<li key={libraries}>{libraries}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Databases:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{Databases.map((databases) => (
+										<li key={databases}>{databases}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Design:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{Design.map((design) => (
+										<li key={design}>{design}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Code Tools:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{CodeTools.map((codetools) => (
+										<li key={codetools}>{codetools}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									!Code Tools:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{NotCodeTools.map((notcodetools) => (
+										<li key={notcodetools}>{notcodetools}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Cloud:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{Cloud.map((cloud) => (
+										<li key={cloud}>{cloud}</li>
+									))}
+								</div>
+							</div>
+							<div className="table-row">
+								<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2">
+									Operating Systems:
+								</div>
+								<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+									{OS.map((os) => (
+										<li key={os}>{os}</li>
+									))}
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-            </div>
-            </div>
+		</div>
 	);
 };
 
-export default TechStack;
+export default TechStackTemp;
