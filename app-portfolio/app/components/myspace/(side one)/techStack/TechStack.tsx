@@ -8,23 +8,22 @@ import {
 	NotCodeTools,
 	Cloud,
 	OS,
-	TechStackParts,
 } from "../../../constants/index";
 
 const TechStackTemp = () => {
 	return (
 		<div className="sideOne">
 			<div className="container">
-				<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5">
+				<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-1/5">
 					<div className="table-header bg-title-A-background text-rootBackground text-left font-bold text- pl-2">
 						Kaesy&apos;s Tech Stack
 					</div>
 					<div className="table-body border-spacing-1">
-						<div className="table-row-group pl-2">
-							<div className="table-cell bg-colABackground text-colAText font-bold text-xs p-2 ">
+						<div className="table-row-group pl-2 ">
+							<div className="table-cell  bg-colABackground text-colAText font-bold text-xs p-2 pr-16 ">
 								Languages:
 							</div>
-							<div className="table-cell list-none bg-colBBackground text-colBText text-xs p-2">
+							<div className="table-cell w-full list-none  bg-colBBackground text-colBText text-xs p-2">
 								{Languages.map((language) => (
 									<li key={language}>{language}</li>
 								))}

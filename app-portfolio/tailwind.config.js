@@ -9,58 +9,56 @@ module.exports = {
 	],
 	theme: {
 		colors: {
-			'rootBackground': "#ffffff",
+			"rootBackground": "#ffffff",
 			"link-color": "#1D296D",
 			"title-A-background": "#658CC3",
 			"border-A": "#658CC3",
-			'colABackground': "#ADC9EE",
-			'colBBackground': "#D3E4F8",
-			'colAText': "#385881",
-			'colBText': "#000000",
+			"colABackground": "#ADC9EE",
+			"colBBackground": "#D3E4F8",
+			"colAText": "#385881",
+			"colBText": "#000000",
 
 			"title-B-background": "#F6C78F",
 			"title-B-text": "#F3662C",
-      "b-col-A-background": "#F29434",
-      "b-col-B-background": "#F2D2AC",
-    },
-    
-    fontFamily: {
-      sans: ["Arial", "sans-serif"],
+			"b-col-A-background": "#F29434",
+			"b-col-B-background": "#F2D2AC",
 		},
-	
-		sideOne: {
-		'display': 'flexbox',
-  		'flex-direction': 'column',
-  		'width': '40%'
+
+		fontFamily: {
+			sans: ["Arial", "sans-serif"],
 		},
-		
-		
-		sideTwo: {
-		'display': 'flexbox',
-  		'flex-direction': 'column',
-  		'width': '70%'
-	},
 
-    screens: {
-      "2xl": { max: "1535px" },
-      // => @media (max-width: 1535px) { ... }
+		// sideOne: {
+		// 	display: "flexbox",
+		// 	flex-direction: "column",
+		// 	width: "40%",
+		// },
 
-      xl: { max: "1279px" },
-      // => @media (max-width: 1279px) { ... }
+		// sideTwo: {
+		// 	display: "flexbox",
+		// 	"flex-direction": "column",
+		// 	width: "70%",
+		// },
 
-      lg: { max: "1023px" },  
-      // => @media (max-width: 1023px) { ... }    
+		screens: {
+			"2xl": { max: "1535px" },
+			// => @media (max-width: 1535px) { ... }
 
-      md: { max: "767px" },   
-      // => @media (max-width: 767px) { ... }    
+			xl: { max: "1279px" },
+			// => @media (max-width: 1279px) { ... }
 
-      sm: { max: "639px" },
-      // => @media (max-width: 639px) { ... }
+			lg: { max: "1023px" },
+			// => @media (max-width: 1023px) { ... }
 
-      xs: { max: "479px" },
-      // => @media (max-width: 479px) { ... }
-    },
+			md: { max: "767px" },
+			// => @media (max-width: 767px) { ... }
 
+			sm: { max: "639px" },
+			// => @media (max-width: 639px) { ... }
+
+			xs: { max: "479px" },
+			// => @media (max-width: 479px) { ... }
+		},
 
 		extend: {},
 	},
