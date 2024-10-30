@@ -8,7 +8,7 @@ const History = () => {
 		<div>
 			<div className="sideOne">
 				<div className="container">
-					<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-1/5">
+					<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-full">
 						<div className="table-header bg-title-A-background text-rootBackground text-left font-bold text- pl-2">
 							Work History
 						</div>

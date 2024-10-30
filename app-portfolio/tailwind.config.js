@@ -20,6 +20,7 @@ module.exports = {
 
 			"title-B-background": "#F6C78F",
 			"title-B-text": "#F3662C",
+			"title-B-text-title": "#FF0000",
 			"b-col-A-background": "#F29434",
 			"b-col-B-background": "#F2D2AC",
 		},
@@ -28,18 +29,7 @@ module.exports = {
 			sans: ["Arial", "sans-serif"],
 		},
 
-		// sideOne: {
-		// 	display: "flexbox",
-		// 	flex-direction: "column",
-		// 	width: "40%",
-		// },
-
-		// sideTwo: {
-		// 	display: "flexbox",
-		// 	"flex-direction": "column",
-		// 	width: "70%",
-		// },
-
+		
 		screens: {
 			"2xl": { max: "1535px" },
 			// => @media (max-width: 1535px) { ... }

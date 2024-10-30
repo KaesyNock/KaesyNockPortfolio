@@ -38,17 +38,7 @@ body {
   flex-direction: column;
 }
 
-#sideOne {
-  display:flexbox;
-  flex-direction: column;
-  width: 30%;
-}
 
-.sideTwo {
-  display:flexbox;
-  flex-direction: column;
-  width: 70%;
-}
 
 
 a {

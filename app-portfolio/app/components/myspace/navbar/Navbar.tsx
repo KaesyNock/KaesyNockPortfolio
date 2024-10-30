@@ -1,6 +1,7 @@
 import styles from "./navbar.module.css";
 import Image from "next/image";
 
+
 const Navbar = () => {
 	return (
 		<nav className={styles.navbar}>
@@ -8,10 +9,10 @@ const Navbar = () => {
 				<div className={styles.image}>
 					<Image
 						className={styles.logo}
-						src="/logo.svg"
+						src="/blacklogo.svg"
 						// may have to switch to png- don't want nock design on there
 						alt="kaesynocklogo"
-						width={250}
+						width={80}
 						height={80}
 						priority
 					/>

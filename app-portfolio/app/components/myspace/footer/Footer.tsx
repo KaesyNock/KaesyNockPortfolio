@@ -3,21 +3,21 @@ import Image from "next/image";
 
 const Footer = () => {
 	return (
-		<nav className={styles.navbar}>
-			<div className={styles.container}>
-				<div className={styles.image}>
+		<nav className={styles.container}>
+			<div className="container">
+				
 					<Image
-						className={styles.logo}
-						src="/logo.svg"
+						className="images"
+						src="/blacklogo.svg"
 						alt="kaesynocklogo"
-						width={250}
+						width={80}
 						height={80}
 						priority
 					/>
-				</div>
-				<div className={styles.title}></div>
+				
+				<div className="title"></div>
 				<h1>Kaesy Nock</h1>
-				<div className={styles.links}>
+				<div className="links">
 					<ul>
 						<li>
 							<a href="https://www.linkedin.com/in/kaesy-nock/">LinkedIn</a>

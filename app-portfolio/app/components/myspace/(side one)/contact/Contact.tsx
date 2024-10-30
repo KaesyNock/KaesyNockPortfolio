@@ -9,14 +9,14 @@ const Contact = () => {
 	return (
 		<div className="sideOne">
 			<div className="container">
-				<div className="table pb-3 ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-1/5">
+				<div className="table ml-10 border-2 border-border-A border-separate text-left mt-3 mb-3 w-full">
 					<div className="table-header bg-title-A-background text-rootBackground text-left font-bold pl-2">
 						Contacting Kaesy
 					</div>
-					<div className="table-body pl-2">
+					<div className="table-body ml-2 p-1 mt-2 mb-3">
 						<div className="table-row-group">
-							<div className="table-cell text-xs p-2 ">
-								<a className="p-2 pl-2" href="mailto:kaesynock@gmail">
+							<div className="table-cell text-xs  ">
+								<a className="p-2 pl-2 mb-2 pb-3" href="mailto:kaesynock@gmail">
 									<Image
 										className="pr-2 inline-table"
 										src={EmailIcon}
@@ -28,10 +28,10 @@ const Contact = () => {
 									Send Message
 								</a>
 							</div>
-							<div className="table-cell text-xs p-2">
+							<div className="table-cell text-xs mb-3 ">
 								<a
 									className="table-cell p-2"
-									href="https://www.linkedin.com/in/kaesynock/">
+									href="https://www.github.com/kaesynock">
 									<Image
 										className="pr-2 inline-table"
 										src={GitHubIcon}
@@ -43,7 +43,7 @@ const Contact = () => {
 								</a>
 							</div>
 							<div className="table-row">
-								<div className="table-cell text-xs p-2">
+								<div className="table-cell text-xs ">
 									<a href="https://www.linkedin.com/in/kaesynock/">
 										<Image
 											className="ml-1 pr-2 inline-table"
@@ -55,7 +55,7 @@ const Contact = () => {
 										<div className="pr-3">Add to Friends</div>
 									</a>
 								</div>
-								<div className="table-cell  text-xs p-2">
+								<div className="table-cell  text-xs ">
 									<a href="/">
 										<Image
 											className="ml-2 pr-2 inline-table"
