@@ -10,7 +10,7 @@ import Scrap from "./components/myspace/Scrap";
 import Education from "./components/myspace/(side one)/education/Education";
 import History from "./components/myspace/(side one)/job-history/History";
 import About from "./components/myspace/(side two)/about/About";
-import HomePageBlogs from "./components/myspace/(side two)/blogs/HomePageBlogs";
+import Blogs from "./components/myspace/(side two)/blogs/Blogs";
 import Projects from "./components/myspace/(side two)/projects/Projects";
 
 export const metadata: Metadata = {
@@ -29,15 +29,15 @@ export default function RootLayout({
 				{/* <Navbar /> */}
 				<div className="flex">
 					<div className="flex-1">
-					<Bio />
-					<Scrap />
-					<Contact />
-					<TechStack />
-					<Education />
+						<Bio />
+						<Scrap />
+						<Contact />
+						<TechStack />
+						<Education />
 						<History />
-						</div>
+					</div>
 					<div className="flex-2">
-						<HomePageBlogs />
+						<Blogs />
 						<About />
 						<Projects />
 					</div>

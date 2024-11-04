@@ -1,22 +1,19 @@
-
-
-export const Blogs = [
+export const Posts = [
     {
         id: "1",
-        title: "Blog Post 1",
-        href: "/blog/1",
-   
-    },
-    {
-        id: "2",
-        title: "Blog Post 2",
-        href: "/blog/2",
+        title: "How Did We Get Here?",
+        date: "10/30/1024"
        
     },
     {
-        id: "3",
-        title: "Blog Post 3",
-        href: "/blog/3",
-      
+        id: "2",
+        title: "Don't Agree to Projects where your husband is Scrum Master And other fun things I learned about Jira",
+        date: "10/30/2024"
     },
-]
+    {
+        id: "3",
+        title: "Me as a Person",
+        date: "10/30/2024"
+       
+    },
+];

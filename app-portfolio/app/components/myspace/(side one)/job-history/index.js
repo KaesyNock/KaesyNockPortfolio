@@ -3,7 +3,7 @@ export const ChiWah = [
         id: "1",
         job_title: "Stylist",
         job_description:
-            "Styled hair, ran the front of house, took care of nightly closing, all computer and infrastructure maintence.",
+            "Styled hair, ran the front of house, took care of nightly closing, all computer and infrastructure maintence. (Primarily took job as research for a booking software I am building.)",
         date: "May 2024 - October 2024",
     },
 ];
@@ -21,7 +21,7 @@ export const NockOps = [
 export const TragikDesign= [
 	{
 		id: "3",
-		job_title: "Interim CTO",
+		job_title: "Full Stack Developer",
 		job_description:
 			"Designed and Implemented all infrastructure and systems(AWS, Confluence, Jira, User SSO access into company tools). Created compoany website, automated software delivery with Gitlab, Bash and AWS SSM. Implemented Figma and trained artists for more visibility and easier commuunication. ",
 		date: "July 2023 - January 2024",

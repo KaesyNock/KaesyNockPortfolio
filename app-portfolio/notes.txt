@@ -1,18 +1,13 @@
 WHERE YOU LEFT OFF 
 
-doing the CSS on the tech stack 
--struggling with list not staying within the boarders
--struggling with titles background not filling entire content box 
--borders 
+BLOGS:
+-Post routes are all set up - need to route to brand new page
+-finish blogs
+-stylalize them
 
--only need one border table
--outside border 
+Projects
+-create projects- on hover for now?
+-find pictures 
 
-size of type of tech
--smaller 
 
-size of list 
--larger
-
-adjust the width of td 
-adjust the width thead 
+Finish stylizing entire website
