@@ -1,0 +1,27 @@
+.navbar {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+	background-color: #142e8d;
+	color: #f6ffff;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.links {
+	background-color: #658cc3;
+	color: #f6ffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links ul {
+	list-style-type: none;
+}
+
+.links a {
+    color: #f6ffff;
+}
+
