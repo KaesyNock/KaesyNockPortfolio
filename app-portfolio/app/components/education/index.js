@@ -11,6 +11,12 @@ export const School = [
         title: "Continental School of Beauty",
         degree: "Licensed Cosmetologist",
         date: "September 2009 - June 2010",
+    },
+    {
+        id: "3",
+        title: "Geneseo Central School",
+        degree: "Advanced Regents Diploma",
+        date: "2008"
     }
 ];
 
@@ -38,15 +44,8 @@ export const Classes = [
         id: "1",
         title: "Angular: The Complete Guide",
         provider: "Udemy",
-        tentative_date: "November 1st, 2024",
+        tentative_date: "November 10th, 2024",
     },
-
-    {   
-        id: "2",    
-        title: "React - The Complete Guide",
-        provider: "Udemy",
-        tentative_date: "November 1st, 2024",
-    }
 
 ]
     

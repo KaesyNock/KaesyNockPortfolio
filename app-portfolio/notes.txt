@@ -8,7 +8,4 @@ Projects
 -create projects- on hover for now?
 -find pictures 
 
-Comments
--add the rest of the comments and pictures
-
 Finish stylizing entire website

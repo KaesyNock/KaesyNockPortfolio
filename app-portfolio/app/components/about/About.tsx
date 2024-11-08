@@ -1,7 +1,8 @@
-
+import Image from "next/image";
+import Gif from "@/public/charliejobs.gif";
 
 const About = () => {
-  return (
+	return (
 		<div className="ml-60 w-3/5">
 			<div>
 				<h3 className="bg-title-B-background text-title-B-text font-bold mt-8 p-1 pl-4">
@@ -15,15 +16,15 @@ const About = () => {
 							orginally from Rochester, NY.
 						</p>
 						<p className="mb-2 indent-5">
-							Why a MySpace format you ask? I&apos;m a big fan of not remaking
-							the wheel. I love UI but as a Developer my goal is first to design
-							a product that is going to be clear, concise, and to deliver the
-							viewer the necessary info in a ledgeable format. I figured MySpace
-							is my generation&apos;s first and best template website so I
-							thought I&apos;d throw it back on this one. Later on I&apos;ll
-							attach a website that&apos;s got graphics and is heavily
-							interactive to show off my skill set but as my mentors always say
-							&quot;KISS IT&quot;.
+							<span className="font-bold">Why a MySpace format you ask? </span>{" "}
+							I&apos;m a big fan of not remaking the wheel. I love UI but as a
+							Developer my goal is first to design a product that is going to be
+							clear, concise, and to deliver the viewer the necessary info in a
+							ledgeable format. I figured MySpace is my generation&apos;s first
+							and best template website so I thought I&apos;d throw it back on
+							this one. Later on I&apos;ll attach a website that&apos;s got
+							graphics and is heavily interactive to show off my skill set but
+							as my mentors always say &quot;KISS IT&quot;.
 						</p>
 						<p className="mt-2 indent-5">
 							And yes, I am completely aware of the irony of quoting Alan Kay
@@ -31,18 +32,20 @@ const About = () => {
 							that is two decades old. Rebel.
 						</p>
 						<p className="mt-2 indent-5">
-							Why am I building my website like this? Tech land has always been
-							a market for the engineer brain. Most of us could probably be
-							accused (and rightfully so) of thinking more like a computer than
-							a man. I&apos;ve had so many discussions over the years about the
-							developer brain (or anyone in the field really) and language. I
-							think it&apos;s safe to say when we all start our careers we
-							struggle with computer versus human thought. Human communication
-							and the stimuli/response cycle is so predisposed to nuance,
-							inference, and assumption. An amalgamation of years and decades of
-							sociological experiences, backgrounds, environment, and so much
-							more. As humans we have no idea how much our speech is impacted by
-							our lives.
+							<span className="font-bold">
+								Why am I building my website like this?
+							</span>
+							Tech land has always been a market for the engineer brain. Most of
+							us could probably be accused (and rightfully so) of thinking more
+							like a computer than a man. I&apos;ve had so many discussions over
+							the years about the developer brain (or anyone in the field
+							really) and language. I think it&apos;s safe to say when we all
+							start our careers we struggle with computer versus human thought.
+							Human communication and the stimuli/response cycle is so
+							predisposed to nuance, inference, and assumption. An amalgamation
+							of years and decades of sociological experiences, backgrounds,
+							environment, and so much more. As humans we have no idea how much
+							our speech is impacted by our lives.
 						</p>
 						<p className="mt-2 indent-5">
 							The problem? That ALL goes out the window the second you try to
@@ -53,16 +56,18 @@ const About = () => {
 							difficult, often tedious process.
 						</p>
 						<p className="mt-2 indent-5">
-							Why am I bringing this up? I decided to do a personality based
-							website over a tech heavy website because you can ALWAYS teach
-							technology. You can teach project management, time management,
-							documentation, scaling, planning, and career growth. What you
-							cannot teach is personality, being a good team member,
-							interpersonal communication, integrity, or trust. I wanted to show
-							off what sets me apart from most developers.
+							<span className="font-bold">Why am I bringing this up?</span> I
+							decided to do a personality based website over a tech heavy
+							website because you can ALWAYS teach technology. You can teach
+							project management, time management, documentation, scaling,
+							planning, and career growth.{" "}
+							<span className="font-bold">
+								What you cannot teach is personality, being a good team member,
+								interpersonal communication, integrity, or trust.
+							</span>{" "}
+							I wanted to show off what sets me apart from most developers.
 						</p>
 						<p className="mt-2 indent-5">
-							{" "}
 							While most have spent years in this industry, I spent the first 15
 							years in the job market in the people industry. Being a
 							stylist/managing high-end salons and spas/owning my own businesses
@@ -76,7 +81,6 @@ const About = () => {
 							while.
 						</p>
 						<p className="mt-2 indent-5">
-							{" "}
 							Beyond that I come from a huge family (Dad is one of 11, Mom is
 							one of 8) which means having a sense of humor, being able to take
 							criticism, POLITELY make your points and understand the crucial
@@ -105,7 +109,7 @@ const About = () => {
 				</div>
 				<div className="ml-10 mt-5">
 					<h3 className="font-bold text-title-B-text">
-						Who I&apos;d Like to Work For:{" "}
+						Who I&apos;d Like to Work For:
 					</h3>
 					<p className="mt-2 indent-5">
 						This industry is full to the brim with excellent, amazing, world
@@ -134,38 +138,53 @@ const About = () => {
 						Why You Should Want to Hire Me:
 					</h3>
 					<p className="mt-2 indent-5">
-						Although my skill level sits rougly between a junior and a mid (Mid
-						in tech abilities, junior in working for a team.) I have had
+						Although my skill level sits rougly between a Junior and a Mid (Mid
+						in tech abilities, jJunior in working with a team.) I have had
 						rigorous training with two high level mentors.
 					</p>
 					<p className="mt-2 indent-5">
-						My one mentor (my husband and the person who convinced me to get
-						into tech) is an ISSO, AWS SME, AWS Global Hero, Scrum Master, and
-						Principal Architect/DevSecOps Engineer. My other mentor is a
-						Principal Data Scientest and Architect. My Mentors are World Class
-						Engineers(literally) who have set me on a path to incredible
-						success.
+						My one <span className="font-bold"> Mentor </span>(my husband and
+						the person who convinced me to get into tech) is an{" "}
+						<span className="font-bold">
+							ISSO, AWS SME, AWS Global Hero, Scrum Master, and Principal
+							Architect/DevSecOps Engineer.{" "}
+						</span>{" "}
+						My other <span className="font-bold">Mentor</span> is a{" "}
+						<span className="font-bold">
+							Principal Data Scientest and Architect.{" "}
+						</span>
+						My Mentors are World Class Engineers (literally) who have set me on
+						a path to incredible success.
 					</p>
 					<p className="mt-2 indent-5">
-						They have taught me the ins and outs of this industry including:
-						Best Practices, Requirements Gathering, Standards, Agile
-						Methodologies, Documentation, etc. They&apos;ve taught me about the
-						most common pot holes that every developer falls into, they&apos;ve
-						taught me KISS IT, The Dunning-Kruger Effect (I would like to think
-						I&apos;m heading back up the Slope of Englightenment), that most
-						developers know a ton about software but not nearly as much about
-						hardware.
+						They have taught me the ins and outs of this industry including:{" "}
+						<span className="font-bold">
+							Best Practices, Requirements Gathering, Standards, Agile
+							Methodologies, Documentation
+						</span>
+						, etc. They&apos;ve taught me about the most common pot holes that
+						every developer falls into, they&apos;ve taught me
+						<span className="font-bold">
+							&quot;KISS IT&quot;, The Dunning-Kruger Effect
+						</span>{" "}
+						(I would like to think I&apos;m heading back up the Slope of
+						Englightenment), that most developers know a ton about software but
+						not nearly as much about hardware.
 					</p>
 					<p className="mt-2 indent-5">
-						I have been quizzed at 2AM on the Powers of 2, The OSI Model (What
-						the Layer is, What is does, Who it communicates to, and an example
-						of tech on each layer), Network Interface Protocol. I&apos;ve gotten
-						history lessons on everything from ARPANET to the origins of IANA
-						(the ruling body who assigns port numbers and protocol; socket
-						numbers if we&apos;re still talking ARPANET). I&apos;ve learned what
-						my standards should be. I&apos;ve learned that as Developers we
-						should always develop the most efficient, scalable, clean code
-						possible.
+						I have been quizzed at 2AM on the
+						<span className="font-bold"> Powers of 2 and The OSI Model </span>
+						(What the Layer is, What is does, Who it communicates to, and an
+						example of tech on each layer). I&apos;ve gotten history lessons on
+						everything from <span className="font-bold"> ARPANET</span> to the
+						origins of <span className="font-bold"> IANA </span> (the ruling
+						body who assigns port numbers and protocol; socket numbers if
+						we&apos;re still talking ARPANET). I&apos;ve learned what my
+						standards should be.
+						<span className="font-bold">
+							I&apos;ve learned that as Developers we should always develop the
+							most efficient, scalable, clean code possible.
+						</span>
 					</p>
 					<p className="mt-2 indent-5">
 						I&apos;ve spent years listening to their biggest frustrations with
@@ -176,21 +195,32 @@ const About = () => {
 						how much pressure sits on Principal and Seniors&apos; shoulders. I
 						know how something as simple as extra spaces in code can end up
 						costing thousands in unneccesary storage costs. Or how tech debt and
-						poor organization can end up costing untold amounts. I only know how
-						to have high standards because my education has only included the
-						highest of standards. You should hire me because I will be a
-						phenomal developer- I just need a bit more corporate experience
-						under my belt.
+						poor organization can end up costing untold amounts.{" "}
+						<span className="font-bold">
+							I only know how to have high standards because my education has
+							only included the highest of standards. You should hire me because
+							I will be a phenomal developer- I just need a bit more corporate
+							experience under my belt.
+						</span>
 					</p>
-					<p className="mt-2 indent-5">
-						And if none of this works- perhaps this enchanting GIF might
-						encourage you.
-						{/* new girl money gif */}
-					</p>
+					<br />
+					<div className="flex justify-center items-center">
+						<p>
+							And if none of this works- perhaps this enchanting GIF might
+							encourage you <span className="font-bold">;]</span>.
+							<Image
+								src={Gif}
+								alt="itsalwayssunnyinphiladelphia gif"
+								width={300}
+								height={300}
+								className="ml-16"
+							/>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	);
-}
+};
 
-export default About
+export default About;
