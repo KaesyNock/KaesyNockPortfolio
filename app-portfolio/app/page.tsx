@@ -11,21 +11,19 @@ import CommentsContainer from "./components/comments/Comments";
 export default function Home() {
 	return (
 		<div className="flex">
-					<div className="flex-1">
-						<Bio />
-						<Contact />
-						<TechStack />
-						<Education />
-						<History />
-					</div>
-					<div className="flex-2">
-						<BlogLinks />
-						<About />
+			<div className="flex-1">
+				<Bio />
+				<Contact />
+				<TechStack />
+				<Education />
+				<History />
+			</div>
+			<div className="flex-2">
+				<BlogLinks />
+				<About />
 				<Projects />
 				<CommentsContainer />
-					</div>
-
-
+			</div>
 		</div>
 	);
 }

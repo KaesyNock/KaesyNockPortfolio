@@ -7,7 +7,7 @@ const Navbar = () => {
 		<nav className={styles.navbar}>
 			<div className={styles.container}>
 				<div className={styles.image}>
-					<Image
+					{/* <Image
 						className={styles.logo}
 						src="/blacklogo.svg"
 						// may have to switch to png- don't want nock design on there
@@ -15,7 +15,7 @@ const Navbar = () => {
 						width={80}
 						height={80}
 						priority
-					/>
+					/> */}
 				</div>
 				<div className={styles.title}></div>
 				<h1>Kaesy Nock</h1>
@@ -28,7 +28,7 @@ const Navbar = () => {
 							|<a href="https://github.com/kaesynock">Github</a>
 						</li>
 						<li>
-							|<a href="/">Contact</a>
+							|<a href="mailto: kaesynock@gmail">Contact</a>
                         </li>
                         {/* Contact link will eventually point to email or contact form */}
 					</ul>
