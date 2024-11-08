@@ -37,20 +37,20 @@ export const Comment2 = [
 
 export const Comment5 = [
 	{
-		id: "4",
-		name: "My Husband",
+		id: "5",
+		name: "Parental Unit",
 		comment:
-			"What year is this? But as a DevSecOps guy? Thanks for just saying what you mean. Freaking Developers want everything to sparkle. ",
+			"I don't know what the heck any of this mean, I'm just umpressed you can read and write it. Anyway- put us in a good nursing home, would ya?",
 		date: "10/30/2024",
 	},
 ];
 
 export const Comment6 = [
 	{
-		id: "4",
-		name: "My Husband",
+		id: "6",
+		name: "Impa",
 		comment:
-			"What year is this? But as a DevSecOps guy? Thanks for just saying what you mean. Freaking Developers want everything to sparkle. ",
+			"I just watched the part in the Lion King where Mufasa falls. Do you see my face? I am not okay. ",
 		date: "10/30/2024",
 	},
 ];
@@ -58,9 +58,9 @@ export const Comment6 = [
 export const Comment7 = [
 	{
 		id: "4",
-		name: "My Husband",
+		name: "Brother",
 		comment:
-			"What year is this? But as a DevSecOps guy? Thanks for just saying what you mean. Freaking Developers want everything to sparkle. ",
+			"I know I lost the bet but if you're making Developer Money you're taking care of Mom and Dad when they're old. ",
 		date: "10/30/2024",
 	},
 ];
@@ -68,9 +68,9 @@ export const Comment7 = [
 export const Comment8 = [
 	{
 		id: "4",
-		name: "Other Mentor",
+		name: "Rubber Duck",
 		comment:
-			"What year is this? But as a DevSecOps guy? Thanks for just saying what you mean. Freaking Developers want everything to sparkle. ",
+			"Ducks say RAWR",
 		date: "10/30/2024",
 	},
 ];
@@ -78,9 +78,9 @@ export const Comment8 = [
 export const Comment9 = [
 	{
 		id: "4",
-		name: "My Husband",
+		name: "Zelda",
 		comment:
-			"What year is this? But as a DevSecOps guy? Thanks for just saying what you mean. Freaking Developers want everything to sparkle. ",
+			"Why do you have a Rubber Duck if you just read your code back to me? I should be getting the Duck's paycheck and respect.",
 		date: "10/30/2024",
 	},
 ];
@@ -88,9 +88,9 @@ export const Comment9 = [
 export const Comment10 = [
 	{
 		id: "4",
-		name: "My Husband",
+		name: "Link",
 		comment:
-			"What year is this? But as a DevSecOps guy? Thanks for just saying what you mean. Freaking Developers want everything to sparkle. ",
+			"Okay, Mom, but when you get a new job I want a new Master Sword.",
 		date: "10/30/2024",
 	},
 ];

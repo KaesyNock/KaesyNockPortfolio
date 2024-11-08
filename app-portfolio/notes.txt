@@ -1,7 +1,6 @@
 WHERE YOU LEFT OFF 
 
 BLOGS:
--Post routes are all set up - need to route to brand new page
 -finish blogs
 -stylalize them
 
@@ -9,5 +8,7 @@ Projects
 -create projects- on hover for now?
 -find pictures 
 
+Comments
+-add the rest of the comments and pictures
 
 Finish stylizing entire website
