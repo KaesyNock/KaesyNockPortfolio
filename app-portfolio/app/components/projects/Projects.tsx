@@ -1,12 +1,12 @@
 import Image from "next/image.js";
-import oneImage from "../../../public/1.jpg";
-import twoImage from "../../../public/2.jpg";
-import threeImage from "../../../public/3.jpg";
-import fourImage from "../../../public/4.jpg";
-import fiveImage from "../../../public/5.jpg";
-import sixImage from "../../../public/6.jpg";
-import sevenImage from "../../../public/7.jpg";
-import eightImage from "../../../public/8.jpg";
+import spa from "../../../public/spa.svg";
+import blog from "../../../public/book.svg";
+import expense from "../../../public/expensetracker.svg";
+import taskmanager from "../../../public/taskmanager.svg";
+import groceries from "../../../public/groceries.svg";
+import ecommerce from "../../../public/e-commerce.svg";
+import music from "../../../public/music.svg";
+import lyftclone from "../../../public/lyftclone.svg";
 import Link from "next/link";
 
 const Projects = () => {
@@ -18,56 +18,68 @@ const Projects = () => {
 						<h4>Kaesy&apos;s Top 8 (Projects)</h4>
 					</div>
 					<div>
-						<ul className="grid gap-2 grid-cols-4 grid-rows-2 content-center ml-10 mt-8 mr-10">
+						<ul className="grid gap-2 grid-cols-4 grid-rows-2 text-center content-center ml-10 mt-8 mr-10">
+							<li className="text-center">
+								<Link className="text-center" href="/">
+									Spa Booking App
+								</Link>
+								<Image src={spa} alt="image1" width={200} height={200} />
+							</li>
 							<li>
 								<Link className="text-center" href="/">
-									Health and Wellness Booking App
-								</Link>
-								<Image src={oneImage} alt="image1" width={200} height={100} />
-							</li>
-							<li>
-								<Link className="" href="/">
 									Multi-Template Blog App
 								</Link>
-								<Image src={twoImage} alt="image1" width={200} height={100} />
+								<Image src={blog} alt="image1" width={200} height={100} />
 							</li>
 							<li>
-								<Link className="" href="/">
+								<Link className="text-center" href="/">
 									Expense Tracker
 								</Link>
-								<Image src={threeImage} alt="image1" width={200} height={100} />
+								<Image src={expense} alt="image1" width={200} height={100} />
 							</li>
 							<li>
-								<Link className="" href="/">
+								<Link className="text-center" href="/">
 									Grocery Delivery App
 								</Link>
-								<Image src={fourImage} alt="image1" width={200} height={100} />
+								<Image src={groceries} alt="image1" width={200} height={100} />
 							</li>
 							<li className="">
-								<Link className="" href="/">
+								<Link className="text-center" href="/">
 									Lyft Clone
 								</Link>
-								<Image src={fiveImage} alt="image1" width={200} height={100} />
+								<Image src={lyftclone} alt="image1" width={200} height={100} />
 							</li>
 							<li>
-								<Link className="" href="/">
+								<Link className="text-center" href="/">
 									Music Player
 								</Link>
-								<Image src={sixImage} alt="image1" width={200} height={100} />
+								<Image src={music} alt="image1" width={200} height={100} />
 							</li>
 							<li>
-								<Link className="" href="/">
-									Expense Tracker
+								<Link className="text-center" href="/">
+									Task Manager
 								</Link>
-								<Image src={sevenImage} alt="image1" width={200} height={100} />
+								<Image
+									src={taskmanager}
+									alt="image1"
+									width={200}
+									height={100}
+								/>
 							</li>
 							<li>
-								<Link className="" href="/">
+								<Link className="text-center" href="/">
 									E-commerce Site
 								</Link>
-								<Image src={eightImage} alt="image1" width={200} height={100} />
+								<Image src={ecommerce} alt="image1" width={200} height={100} />
 							</li>
 						</ul>
+						<p className="text-xs text-center mt-6 mb-[(-4)]">
+							*Projects are coming. I have recently taken several
+							illuminating courses and I am now taking the time to refine all of
+							my favorite projects. Thank you for your patience.*
+							<br />
+							*Routes are temporarily routed to home*
+						</p>
 					</div>
 				</div>
 			</div>

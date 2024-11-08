@@ -16,7 +16,7 @@ const About = () => {
 							orginally from Rochester, NY.
 						</p>
 						<p className="mb-2 indent-5">
-							<span className="font-bold">Why a MySpace format you ask? </span>{" "}
+							<span className="font-bold">Why a MySpace format you ask?</span>{" "}
 							I&apos;m a big fan of not remaking the wheel. I love UI but as a
 							Developer my goal is first to design a product that is going to be
 							clear, concise, and to deliver the viewer the necessary info in a
@@ -33,9 +33,7 @@ const About = () => {
 						</p>
 						<p className="mt-2 indent-5">
 							<span className="font-bold">
-								Why am I building my website like this?
-							</span>
-							Tech land has always been a market for the engineer brain. Most of
+								Why am I building my website like this?</span> Tech land has always been a market for the engineer brain. Most of
 							us could probably be accused (and rightfully so) of thinking more
 							like a computer than a man. I&apos;ve had so many discussions over
 							the years about the developer brain (or anyone in the field

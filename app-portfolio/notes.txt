@@ -9,3 +9,10 @@ Projects
 -find pictures 
 
 Finish stylizing entire website
+
+Mobile optimization
+
+Bio
+-profile pic size
+-text size and shape
+

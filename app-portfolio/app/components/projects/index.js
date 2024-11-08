@@ -1,9 +1,13 @@
+import {
+    lyftclone, music, groceries, taskmanager, ecommerce, expense, blog, spa
+ } from "@/app/public"
+
 export const projects = [
     {
         id: "1",
-        title: "Project 1",
+        title: "Spa Booking App",
         href: "/projects/1",
-        src: "./public/1.jpg",
+        src: {spa},
     },
     {
         id: "2",
