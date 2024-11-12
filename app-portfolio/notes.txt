@@ -16,3 +16,7 @@ Bio
 -profile pic size
 -text size and shape
 
+Contact Form 
+-finish emailjs and email 
+
+Image Page

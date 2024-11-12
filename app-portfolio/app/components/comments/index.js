@@ -40,7 +40,7 @@ export const Comment5 = [
 		id: "5",
 		name: "Parental Unit",
 		comment:
-			"I don't know what the heck any of this mean, I'm just umpressed you can read and write it. Anyway- put us in a good nursing home, would ya?",
+			"I don't know what the heck any of this mean, I'm just impressed you can read and write it. Anyway- put us in a good nursing home, would ya?",
 		date: "10/30/2024",
 	},
 ];

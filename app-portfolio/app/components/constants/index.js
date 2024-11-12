@@ -1,10 +1,40 @@
-// IMAGES
 
+// COMPONENTS INDEX//
 
+export const ComponentLinks = [
+	{
+		id: "1",
+		href: "/components/About",
+		title: "About",
+	},
+	{
+		id: "2",
+		href: "/components/projects/Projects",
+		title: "Projects",
+	},
+	{
+		id: "3",
+		href: "/components/bloglinks/BlogLinks",
+		title: "About",
+	},
+	{
+		id: "4",
+		href: "/components/techstack/TechStack",
+		title: "Tech Stack",
+	},
+	{
+		id: "54",
+		href: "/components/education/Education",
+		title: "Education and Certifications",
+	},
+	{
+		id: "6",
+		href: "/components/job-history/History.",
+		title: "Work History",
+	},
+];
 
-
-// TABLE CONSTANTS
-
+// COMPONENT CONSTANTS //
 export const TechStackParts = [
     "Languages",
     "Frameworks",
@@ -84,25 +114,25 @@ export const ContactLinks = [
 	{
         id: "1",
 		url: "emailto: kaesynock@gmail.com",
-		title: "Send Message",
+		title: "Email",
 	},
 
 	{
         id: "2",
 		url: "https://www.linkedin.com/in/kaesy-nock/",
-		title: "Add to Friends",
+		title: "LinkedIn",
 	},
 
 	{
         id: "3",
-		url: "youtube.com",
-		title: "Forward to a Friend",
+		url: "https://calendly.com/kaesynock",
+		title: "Schedule",
 	},
 
 	{
         id: 4,
-		url: "https://www.linkedin.com/in/kaesy-nock/",
-		title: "Add to Favorites",
+		url: "https://github.com/kaesynock",
+		title: "GitHub",
 	},
 ];
 

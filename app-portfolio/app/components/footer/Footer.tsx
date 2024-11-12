@@ -1,38 +1,32 @@
-import styles from "./footer.module.css";
 import Image from "next/image";
+import logo from "../../../public/logos/logo.png";
+import { ContactLinks } from "../constants";
 
 const Footer = () => {
 	return (
-		<nav className={styles.container}>
-			<div className="container">
-				
-					<Image
-						className="images"
-						src="/blacklogo.svg"
-						alt="kaesynocklogo"
-						width={80}
-						height={80}
-						priority
-					/>
-				
-				<div className="title"></div>
-				<h1>Kaesy Nock</h1>
-				<div className="links">
-					<ul>
-						<li>
-							<a href="https://www.linkedin.com/in/kaesy-nock/">LinkedIn</a>
+		<footer className="flex-col-2 bg-navbar">
+			<Image
+				className="pt-4 pb-4 ml-10"
+				src={logo}
+				alt="kaesynocklogo"
+				width={80}
+				height={80}
+				priority
+			/>
+			<div className=" p-2 flex-col justify-center">
+				<ul className="">
+					{ContactLinks.map((contacts) => (
+						<li className="" key={contacts.id}>
+							<a
+								className=" text-navbar-text text-center pl-2 pr-2 "
+								href={contacts.url}>
+								{contacts.title}
+							</a>
 						</li>
-						<li>
-							|<a href="https://github.com/kaesynock">Github</a>
-						</li>
-						<li>
-							|<a href="/">Contact</a>
-						</li>
-						{/* Contact link will eventually point to email or contact form */}
-					</ul>
-				</div>
+					))}
+				</ul>
 			</div>
-		</nav>
+		</footer>
 	);
 };
 

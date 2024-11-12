@@ -149,7 +149,7 @@ const About = () => {
 						</span>{" "}
 						My other <span className="font-bold">Mentor</span> is a{" "}
 						<span className="font-bold">
-							Principal Data Scientest and Architect.{" "}
+							Principal Data Engineer, Backend Developer, AI Developer, and AWS Solutions Architect.{" "}
 						</span>
 						My Mentors are World Class Engineers (literally) who have set me on
 						a path to incredible success.

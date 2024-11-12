@@ -23,6 +23,10 @@ module.exports = {
 			"title-B-text-title": "#FF0000",
 			"b-col-A-background": "#F29434",
 			"b-col-B-background": "#F2D2AC",
+
+			"navbar": "#142E8D",
+			"navbar-text": "#F6FFFF",
+			
 		},
 
 		fontFamily: {
