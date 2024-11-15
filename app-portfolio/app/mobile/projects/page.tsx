@@ -12,7 +12,7 @@ import Link from "next/link";
 const Projects = () => {
 	return (
 		<div>
-			<div className="hidden md:block md:ml-60 md:w-3/5">
+			<div className="ml-60 w-3/5 md:hidden">
 				<div className="container">
 					<div className="bg-title-B-background text-title-B-text font-bold mt-8 p-1 pl-4">
 						<h4>Kaesy&apos;s Top 8 (Projects)</h4>

@@ -1,7 +1,72 @@
 
 // COMPONENTS INDEX//
 
+
+
+import { SideNavItem } from "../../lib/definitions";
+
+export const MobileItems: SideNavItem[] = [
+	{
+		id: "1",
+		title: "About",
+		path: "../mobile/about",
+		
+	},
+	{
+		id: "2",
+		title: "Contact",
+		path: "../mobile/contact",
+		
+	},
+	{
+		id: "3",
+		title: "Tech Stack",
+		path: "../mobile/techstack",
+		
+	},
+	{
+		id: "4",
+		title: "Education and Certifications",
+		path: "../mobile/education",
+		
+	},
+	{
+		id: "5",
+		title: "Projects",
+		path: "/projects",
+		
+		submenu: true,
+		// subMenuItems: [
+		// 	{ title: "All", path: "/projects" },
+		// 	{ title: "Web Design", path: "/projects/web-design" },
+		// 	{ title: "Graphic Design", path: "/projects/graphic-design" },
+		// ],
+	},
+	{	id: "6",
+		title: "Blogs",
+		path: "../components/bloglinks/BlogLinks.tsx",
+		
+		submenu: true,
+		subMenuItems: [
+			{ title: "How Did We Get Here", path: "../blogs/blogpostone" },
+			{ title: "Don't Agree to Projects where your husband is Scrum Master", path: "../blogs/blogposttwo" },
+			{ title: "Can We Talk About Imposter Syndrome?", path: "../blogs/blogpostthree" },
+		],
+	},
+	{	id: "7",
+		title: "Comments",
+		path: "../components/comments/Comments.tsx",
+		
+	},
+];
+
+
 export const ComponentLinks = [
+	{
+		id: "0",
+		href: "/",
+		title: "Home",
+	},
 	{
 		id: "1",
 		href: "/components/About",

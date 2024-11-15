@@ -1,19 +1,19 @@
 import Image from "next/image";
 import logo from "../../../public/logos/logo.png";
-import { ContactLinks } from "../constants";
+import { ContactLinks } from "../../constants";
 
 const Footer = () => {
 	return (
-		<footer className="flex-col-2 bg-navbar">
+		<footer className="flex-col bg-navbar">
 			<Image
-				className="pt-4 pb-4 ml-10"
+				className="pt-4 md:pb-4 ml-10"
 				src={logo}
 				alt="kaesynocklogo"
-				width={80}
-				height={80}
+				width={40}
+				height={40}
 				priority
 			/>
-			<div className=" p-2 flex-col justify-center">
+			<div className="p-2 flex-col-2 justify-center">
 				<ul className="">
 					{ContactLinks.map((contacts) => (
 						<li className="" key={contacts.id}>

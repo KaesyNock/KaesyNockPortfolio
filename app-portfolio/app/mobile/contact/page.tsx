@@ -7,7 +7,7 @@ import CalendarIcon from "@/public/icons/calendarIcon.svg";
 
 const Contact = () => {
 	return (
-		<div className="md:table hidden md:ml-10 md:border-2 md:border-border-A md:border-separate md:text-left md:mt-3 md:mb-3 md:w-full">
+		<div className="table ml-10 border-2 border-border-A border-separate text-left mt-3 mb-3 w-full md:hidden">
 			<div className="table-header bg-title-A-background text-rootBackground text-left font-bold pl-2">
 				Contacting Kaesy
 			</div>
@@ -32,9 +32,7 @@ const Contact = () => {
 						<div className="table-cell">
 							<Link
 								className="table-cell text-[11px] pb-1"
-								href="https://www.github.com/kaesynock"
-								target="_blank"
-								rel="noreferrer">
+								href="https://www.github.com/kaesynock">
 								<Image
 									className="pr-1 pb-2 ml-2 inline-table"
 									src={GitHubIcon}
@@ -48,10 +46,7 @@ const Contact = () => {
 					</div>
 					<div className="table-row">
 						<div className="table-cell">
-							<Link
-								href="https://www.linkedin.com/in/kaesynock/"
-								target="_blank"
-								rel="noreferrer">
+							<Link href="https://www.linkedin.com/in/kaesynock/">
 								<Image
 									className="inline-table"
 									src={LinkedInIcon}
@@ -63,11 +58,7 @@ const Contact = () => {
 							</Link>
 						</div>
 						<div className="table-cell">
-							<Link
-								href="https://calendly.com/kaesynock"
-								target="_blank"
-								rel="noreferrer"
-							>
+							<Link href="https://calendly.com/kaesynock">
 								<Image
 									className=" inline-table ml-2"
 									src={CalendarIcon}

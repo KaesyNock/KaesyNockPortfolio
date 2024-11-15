@@ -1,11 +1,10 @@
 import React from 'react'
-import NBanner from "@/public/NBanner.svg";
+import NBanner from "../../../public/Nbanner.svg";
 import Image from 'next/image'
-import NBannerOld from "@/public/NBannerOld.svg";
 
 const Bio = () => {
 	return (
-		<div className="ml-10">
+		<div className="ml-10 mr-10">
 			<div className="mt-10 text-4xl text-align-center">Kaesy Nock</div>
 			<h5 className="text-bold">Full Stack Developer</h5>
 			<div className="flex align-items-center gap-5 ">
@@ -16,12 +15,14 @@ const Bio = () => {
 					width={275}
 					height={200}
 				/>
-				<div className="pb-4">
-					<h5 className="pb-3 text-xs pt-2">
-						&quot;The best way to predict the <br /> future is to invent
-						it&quot; -Alan Kay
+				<div className="pb-4 mt-2">
+					<h5 className="text-sm pt-2">
+						&quot;Give me a lever and a place to stand, I&apos;ll move the
+						World.&quot;
+						<br />
+						<span className='text-xs'>Astronautalis</span>
 					</h5>
-					<p className="pb-4 text-xs">
+					<p className="pb-4 mt-4 text-xs">
 						Female, 34, <br />
 						Remote, US
 					</p>

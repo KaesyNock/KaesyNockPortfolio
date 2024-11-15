@@ -3,7 +3,7 @@ import Gif from "@/public/charliejobs.gif";
 
 const About = () => {
 	return (
-		<div className="hidden md:block md:ml-60 md:w-3/5">
+		<div className="md:hidden sm:text-center">
 			<div>
 				<h3 className="bg-title-B-background text-title-B-text font-bold mt-8 p-1 pl-4">
 					Kaesy&apos;s Blurbs
@@ -134,7 +134,7 @@ const About = () => {
 					</h3>
 					<p className="mt-2 indent-5">
 						Although my skill level sits rougly between a Junior and a Mid (Mid
-						in tech abilities, Junior in working with a team.) I have had
+						in tech abilities, jJunior in working with a team.) I have had
 						rigorous training with two high level mentors.
 					</p>
 					<p className="mt-2 indent-5">

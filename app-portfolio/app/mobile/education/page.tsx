@@ -1,10 +1,15 @@
-import React from 'react'
-import {School, Certifications, FutureCertifications, Classes} from './index.js'
+import React from "react";
+import {
+	School,
+	Certifications,
+	FutureCertifications,
+	Classes,
+} from "../../components/education/index";
 
 const Education = () => {
-  return (
+	return (
 		<div>
-			<div className="hidden md:table md:ml-10 md:border-2 md:border-border-A md:border-separate md:text-left md:mt-5 md:mb-5 md:w-full">
+			<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-full md:hidden">
 				<div className="table-header bg-title-A-background text-rootBackground text-left font-bold text- pl-2">
 					Education and Certifications
 				</div>
@@ -69,6 +74,6 @@ const Education = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default Education
+export default Education;

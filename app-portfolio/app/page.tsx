@@ -7,6 +7,7 @@ import About from "./components/about/About";
 import BlogLinks from "./components/bloglinks/BlogLinks";
 import Projects from "./components/projects/Projects";
 import CommentsContainer from "./components/comments/Comments";
+import ExtendedNetwork from "./components/extended/extended";
 
 export default function Home() {
 	return (
@@ -19,6 +20,7 @@ export default function Home() {
 				<History />
 			</div>
 			<div className="flex-2">
+				<ExtendedNetwork />
 				<BlogLinks />
 				<About />
 				<Projects />

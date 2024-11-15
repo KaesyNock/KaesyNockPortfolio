@@ -12,7 +12,7 @@ import {
 
 const TechStackTemp = () => {
 	return (
-		<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-full md:box">
+		<div className="table ml-10 border-2 border-border-A border-separate text-left mt-5 mb-5 w-full md:hidden">
 			<div className="table-header bg-title-A-background text-rootBackground text-left font-bold text- pl-2">
 				Kaesy&apos;s Tech Stack
 			</div>

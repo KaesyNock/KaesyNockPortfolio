@@ -6,17 +6,23 @@ BLOGS:
 
 Projects
 -create projects- on hover for now?
--find pictures 
+
 
 Finish stylizing entire website
 
 Mobile optimization
 
-Bio
--profile pic size
--text size and shape
+
 
 Contact Form 
 -finish emailjs and email 
 
 Image Page
+
+Navbar
+contact links-remove?
+
+Bio 
+-adjust image
+
+spotify widget

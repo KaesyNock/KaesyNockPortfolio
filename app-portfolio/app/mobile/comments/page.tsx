@@ -1,5 +1,16 @@
 import React from "react";
-import { Comment1, Comment2, Comment3, Comment4, Comment5, Comment6, Comment7, Comment8, Comment9, Comment10 } from "../comments/index.js";
+import {
+	Comment1,
+	Comment2,
+	Comment3,
+	Comment4,
+	Comment5,
+	Comment6,
+	Comment7,
+	Comment8,
+	Comment9,
+	Comment10,
+} from "../../components/comments/index.js";
 import Image from "next/image.js";
 import Mike from "../../../public/Mike.svg";
 import Kids from "../../../public/kids.svg";
@@ -13,7 +24,7 @@ import ThursdayDove from "../../../public/thursdaydove.svg";
 
 const CommentsContainer = () => {
 	return (
-		<div className="hidden md:block md:ml-60 md:w-3/5 ">
+		<div className="ml-60 w-3/5 md:hidden">
 			<div className="table ml-10  border-separate text-left mt-5 mb-5 w-full">
 				<div className="table-header bg-title-B-background text-title-B-text font-bold mt-8 p-1 pl-4">
 					Kaesy&apos;s Reviews and Comments:
