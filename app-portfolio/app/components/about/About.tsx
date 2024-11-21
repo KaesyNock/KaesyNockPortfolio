@@ -13,14 +13,14 @@ const About = () => {
 						<h3 className="font-bold text-title-B-text">About Me:</h3>
 						<p className="mt-2 ">
 							Hi! My I&apos;m Kaesy and I&apos;m a Full Stack Developer
-							orginally from Rochester, NY.
+							originally from Rochester, NY.
 						</p>
 						<p className="mb-2 indent-5">
 							<span className="font-bold">Why a MySpace format you ask?</span>{" "}
 							I&apos;m a big fan of not remaking the wheel. I love UI but as a
 							Developer my goal is first to design a product that is going to be
 							clear, concise, and to deliver the viewer the necessary info in a
-							ledgeable format. I figured MySpace is my generation&apos;s first
+							ledgable format. I figured MySpace is my generation&apos;s first
 							and best template website so I thought I&apos;d throw it back on
 							this one. Later on I&apos;ll attach a website that&apos;s got
 							graphics and is heavily interactive to show off my skill set but
@@ -57,10 +57,9 @@ const About = () => {
 							project management, time management, documentation, scaling,
 							planning, and career growth.{" "}
 							<span className="font-bold">
-								What you cannot teach is personality, being a good team member,
+								You cannot teach personality, being a good team member,
 								interpersonal communication, integrity, or trust.
-							</span>{" "}
-							I wanted to show off what sets me apart from most developers.
+							</span>
 						</p>
 						<p className="mt-2 indent-5">
 							While most have spent years in this industry, I spent the first 15
@@ -82,8 +81,7 @@ const About = () => {
 							through the noise- is survival.
 						</p>
 						<p className="mt-2 indent-5">
-							<span className="font-bold">tl;dr</span>: You can be great at tech
-							and have no clue how to communicate with your team. I&apos;m a
+							<span className="font-bold">tl;dr</span>:  I&apos;m a
 							well rounded developer who is just as adept at speaking to the
 							tech as I am at speaking to the team.
 						</p>
@@ -138,8 +136,7 @@ const About = () => {
 						rigorous training with two high level mentors.
 					</p>
 					<p className="mt-2 indent-5">
-						My one <span className="font-bold"> Mentor </span>(my husband and
-						the person who convinced me to get into tech) is an{" "}
+						My<span className="font-bold"> Mentor </span> is an{" "}
 						<span className="font-bold">
 							ISSO, AWS SME, AWS Global Hero, Scrum Master, and Principal
 							Architect/DevSecOps Engineer.{" "}

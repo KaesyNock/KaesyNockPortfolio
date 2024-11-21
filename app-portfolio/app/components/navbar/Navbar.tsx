@@ -18,32 +18,30 @@ const Navbar = () => {
 	return (
 		<nav className="sticky bg-navbar left-0 top-0 w-full z-10 ">
 			{/* <div className="max-w-[1240px] m-auto "> */}
-				<div className="flex-row bg-navbar">
-					<Image
-						className="pt-4 pb-4 md:ml-10"
-						src={Logo}
-						alt="kaesynocklogo"
-						width={80}
-						height={80}
-						priority
-					/>
+			<div className="flex-row bg-navbar">
+				<Image
+					className="pt-4 pb-4 md:ml-10"
+					src={Logo}
+					alt="kaesynocklogo"
+					width={80}
+					height={80}
+					priority
+				/>
 
-					<div className="hidden sm:bg-title-A-background md:flex md:flex-row md:justify-center md:max-w-full  ">
-						<ul className="flex divide-x-2 divide-solid divide-navbar-text">
-							{MobileItems.map((items) => (
-								<li className="" key={items.id}>
-									<a
-										className=" text-navbar-text text-center p-2"
-										href={items.path}>
-										{items.title}
-									</a>
-								</li>
-							))}
-						</ul>
-
-					
-					</div>
+				<div className="hidden md:bg-title-A-background md:flex md:flex-row md:justify-center  ">
+					<ul className="flex divide-x-2 divide-solid divide-navbar-text">
+						{MobileItems.map((items) => (
+							<li className="" key={items.id}>
+								<a
+									className=" text-navbar-text text-center p-2"
+									href={items.path}>
+									{items.title}
+								</a>
+							</li>
+						))}
+					</ul>
 				</div>
+			</div>
 			{/* </div> */}
 
 			{/* Mobile Button */}
@@ -60,19 +58,15 @@ const Navbar = () => {
 			<div
 				className={
 					nav
-						? "md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-title-A-background text-center  ease-in duration-300"
+						? "md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-title-A-background text-center   ease-in duration-300"
 						: "md:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-title-A-background text-center ease-in duration-300"
 				}>
-				<ul>
+				<ul className="bg-navbar-text border-2 border-border-A border-separate text-4xl">
 					{MobileItems.map((item) => (
-						<li
-							onClick={handleNav}
-							className="p-4 text-4xl hover:text-navbar"
-							key={item.id}>
+						<li onClick={handleNav} className="p-4 text-4xl" key={item.id}>
 							<Link href={item.path}>{item.title}</Link>
 						</li>
 					))}
-					;
 				</ul>
 			</div>
 		</nav>

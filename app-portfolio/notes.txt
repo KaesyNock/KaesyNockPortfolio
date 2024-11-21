@@ -3,19 +3,26 @@ WHERE YOU LEFT OFF
 BLOGS:
 -finish blogs
 -stylalize them
+-mobile styalize as well
+-redo titles
 
 Projects
--create projects- on hover for now?
+-on hover for now?
+-images loading slowly
+-center images
 
 
 Finish stylizing entire website
 
 Mobile optimization
+-do all mobile optimization pages
 
-
+about
+-sense of nostalgia only available on web version
 
 Contact Form 
 -finish emailjs and email 
+-align contact line with blurbs
 
 Image Page
 
@@ -23,6 +30,11 @@ Navbar
 contact links-remove?
 
 Bio 
--adjust image
+-set parameters so that image is the same length as text
+-adjust image-perhaps a longer one?
+-bring up image
+
 
 spotify widget
+
+change the url slugs

@@ -3,12 +3,12 @@ import Gif from "@/public/charliejobs.gif";
 
 const About = () => {
 	return (
-		<div className="md:hidden sm:text-center">
+		<div className="md:hidden sm:text-left ">
 			<div>
 				<h3 className="bg-title-B-background text-title-B-text font-bold mt-8 p-1 pl-4">
 					Kaesy&apos;s Blurbs
 				</h3>
-				<div className="ml-10 mt-5">
+				<div className="mt-4 mx-20 text-sm">
 					<div>
 						<h3 className="font-bold text-title-B-text">About Me:</h3>
 						<p className="mt-2 ">
@@ -26,7 +26,7 @@ const About = () => {
 							graphics and is heavily interactive to show off my skill set but
 							as my mentors always say &quot;KISS IT&quot;.
 						</p>
-						<p className="mt-2 indent-5">
+						<p className="mt-2 indent-5 ">
 							<span className="font-bold">
 								Why am I building my website like this?
 							</span>{" "}
@@ -60,7 +60,6 @@ const About = () => {
 								What you cannot teach is personality, being a good team member,
 								interpersonal communication, integrity, or trust.
 							</span>{" "}
-							I wanted to show off what sets me apart from most developers.
 						</p>
 						<p className="mt-2 indent-5">
 							While most have spent years in this industry, I spent the first 15
@@ -82,18 +81,13 @@ const About = () => {
 							through the noise- is survival.
 						</p>
 						<p className="mt-2 indent-5">
-							<span className="font-bold">tl;dr</span>: You can be great at tech
-							and have no clue how to communicate with your team. I&apos;m a
-							well rounded developer who is just as adept at speaking to the
-							tech as I am at speaking to the team.
+							<span className="font-bold">tl;dr</span>: I&apos;m a well rounded
+							developer who is just as adept at speaking to the tech as I am at
+							speaking to the team.
 						</p>
 
 						<p className="text-xs pt-4">
 							<br />
-							<br />
-							*Mobile optimization will come later, but hey, they didn&apos;t
-							really have mobile optimization in 2008 sooo true to history at
-							least?
 						</p>
 						<p className="text-xs">
 							*Projects and Blogs are coming. I recently took several
@@ -102,7 +96,7 @@ const About = () => {
 						</p>
 					</div>
 				</div>
-				<div className="ml-10 mt-5">
+				<div className="mt-5 mx-20 text-sm">
 					<h3 className="font-bold text-title-B-text">
 						Who I&apos;d Like to Work For:
 					</h3>
@@ -128,7 +122,7 @@ const About = () => {
 						team members&apos; lives more cohesive, efficient, and easier.
 					</p>
 				</div>
-				<div className="ml-10 mt-5">
+				<div className=" mt-5 mx-20 text-sm">
 					<h3 className="font-bold text-title-B-text">
 						Why You Should Want to Hire Me:
 					</h3>
@@ -200,19 +194,21 @@ const About = () => {
 						</span>
 					</p>
 					<br />
-					<div className="flex justify-center items-center">
-						<p>
-							And if none of this works- perhaps this enchanting GIF might
-							encourage you <span className="font-bold">;]</span>.
-							<Image
-								src={Gif}
-								alt="itsalwayssunnyinphiladelphia gif"
-								width={300}
-								height={300}
-								className="ml-16"
-							/>
-						</p>
-					</div>
+				</div>
+				<div className="flex mx-20 text-sm">
+					<p>
+						And if none of this works- perhaps this enchanting GIF might
+						encourage you <span className="font-bold">;]</span>.
+						<br />
+						<br />
+						<Image
+							src={Gif}
+							alt="itsalwayssunnyinphiladelphia gif"
+							width={300}
+							height={300}
+							className="m-auto  pb-4"
+						/>
+					</p>
 				</div>
 			</div>
 		</div>
